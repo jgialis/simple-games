@@ -16,7 +16,7 @@
   <body>
     <div class="game-container">
       <div class="top-toolbar">
-        <button class="btn">Play Again</button>
+        <button class="btn play-again">Play Again</button>
         <p class="limit">(Between 1 and 20)</p>
       </div>
       <h1 class="game-title">Number Guessing Game</h1>
@@ -25,16 +25,21 @@
         <div class="line"></div>
       </div>
       <div class="game-content">
-        <form class="guess-box">
+        <div class="guess-box">
           <input class="input-guess" type="text" />
-          <button class="btn">Check</button>
-        </form>
+          <button class="btn check">Check</button>
+        </div>
         <div class="game-text">
-          <p class="p-gl-message margin-bottom">Good luck! 😎</p>
-          <p class="score">Score: 20</p>
-          <p class="highscore">Highscore: 0</p>
+          <p class="p-message margin-bottom">Good luck! 😎</p>
+          <span class="score">Score:</span>
+          <span class="score-count">20</span>
+          <div>
+            <span class="highscore">HighScore:</span>
+            <span class="highscore-count">0</span>
+          </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

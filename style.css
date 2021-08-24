@@ -16,6 +16,7 @@ body {
   height: 100vh;
   width: 100vw;
   background: linear-gradient(#555, #222);
+
   position: relative;
 }
 *:focus {
@@ -40,13 +41,10 @@ body {
   cursor: pointer;
   font-weight: 800;
 }
-.btn:hover,
-.btn:active {
+.btn:hover {
   box-shadow: 0 0 1rem #fff;
 }
-.again-btn:active {
-  background-color: rgba(255, 255, 255, 0.781);
-}
+
 .game-title {
   font-size: 6rem;
   text-align: center;
@@ -104,19 +102,22 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  justify-self: center;
 }
 .game-content {
   margin-top: 10rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
 }
 
 .game-text {
   font-size: 4rem;
   font-weight: 800;
 }
+.game-text {
+  padding-left: 10rem;
+}
 
 .margin-bottom {
-  margin-bottom: 19.5rem;
+  margin-bottom: 5rem;
 }
