@@ -2,6 +2,9 @@ SHORT-DESCRIPTION:
 Two player chance game implemented using JavaScript, HTML, and CSS.
 
 GAME INSTRUCTIONS:
-This game is based purely on luck! Players each take turns rolling a die continously, until they choose to stop or until the die lands on a 1.
-During a players turn, they have a current count which always starts at 0 at the beginning of a players turn. While they roll the die, each number the die lands on gets added to the current count.
-If the player chooses to end their turn, the current count is added to their total count. However, if the die lands on 1, the player looses their current count, which gets reset back to 0, and it is the next persons turn.
+This game is based purely on luck! Players each take turns rolling a die continously, until 
+they choose to stop or until the die lands on a 1. During a players turn, they have a current 
+count which always starts at 0 at the beginning of a players turn. While they roll the die, each 
+number the die lands on gets added to the current count. If the player chooses to end their 
+turn, the current count is added to their total count. However, if the die lands on 1, the 
+player looses their current count, which gets reset back to 0, and it is the next persons turn.
